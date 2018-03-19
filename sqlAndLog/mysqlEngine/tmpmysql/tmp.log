@@ -1,0 +1,233 @@
+[release] begin
+[release] begin
+2018/03/09 11:52:17 main.go:16: [release] begin
+2018/03/09 13:18:55 main.go:17: [release] begin
+2018/03/09 13:27:26 main.go:17: [release] begin
+2018/03/09 13:27:51 main.go:17: [release] begin
+2018/03/09 13:28:14 main.go:17: [release] begin
+2018/03/09 13:32:21 main.go:17: [release] begin
+2018/03/09 13:32:21 tmp.go:30: [release] test
+2018/03/09 13:33:34 main.go:17: [release] begin
+2018/03/09 13:33:34 tmp.go:30: [release] test
+2018/03/09 13:33:34 mysql.go:75: [release]   %!(EXTRA mysqlEngine.DBConf={[0xc04207c6c0]})
+2018/03/09 13:34:10 main.go:17: [release] begin
+2018/03/09 13:34:10 tmp.go:30: [release] test
+2018/03/09 13:34:10 mysql.go:75: [release]  [0xc04206a6c0] 
+2018/03/09 13:34:36 main.go:17: [release] begin
+2018/03/09 13:34:36 tmp.go:30: [release] test
+2018/03/09 13:34:36 mysql.go:76: [release]  {Sqls:[0xc0420686c0]} 
+2018/03/09 13:35:22 main.go:17: [release] begin
+2018/03/09 13:35:22 tmp.go:30: [release] test
+2018/03/09 13:35:22 mysql.go:76: [release] select 2
+2018/03/09 13:44:21 main.go:17: [release] begin
+2018/03/09 13:44:21 tmp.go:30: [release] test
+2018/03/09 13:44:21 mysql.go:113: [release] =========%!(EXTRA int=1, *mysqlEngine.stmtItem=&{0xc0420d8000 0xc04207e6c0})
+2018/03/09 13:49:33 main.go:17: [release] begin
+2018/03/09 13:49:33 tmp.go:44: [release] =======&{ConfPath:./init/mysql_engine.json Host:127.0.0.1 Port:3306 User:root Passwd:123qWE DbName:dfh_monitor MaxIdle:3 MaxActive:10 WorkerNum:0 GoSer:0xc042036600 db:<nil> engineConf:{Sqls:[]} smtsById:map[] smtsByName:map[] ctx:<nil> ctx_cb:<nil>}
+2018/03/09 13:55:11 main.go:17: [release] begin
+2018/03/09 13:55:11 tmp.go:44: [release] =======&{ConfPath:./init/mysql_engine.json Host:127.0.0.1 Port:3306 User:root Passwd:123qWE DbName:test MaxIdle:3 MaxActive:10 WorkerNum:0 GoSer:0xc042036600 db:<nil> engineConf:{Sqls:[]} smtsById:map[] smtsByName:map[] ctx:<nil> ctx_cb:<nil>}
+2018/03/09 13:56:34 main.go:17: [release] begin
+2018/03/09 13:56:34 tmp.go:44: [release] =======&{ConfPath:./init/mysql_engine.json Host:127.0.0.1 Port:3306 User:root Passwd:123qWE DbName:test MaxIdle:3 MaxActive:10 WorkerNum:0 GoSer:0xc0420445f0 db:<nil> engineConf:{Sqls:[]} smtsById:map[] smtsByName:map[] ctx:<nil> ctx_cb:<nil>}
+2018/03/09 13:56:34 mysql.go:181: [release] aaaaaaaaa
+2018/03/09 13:56:34 mysql.go:181: [release] aaaaaaaaa
+2018/03/09 13:57:55 main.go:17: [release] begin
+2018/03/09 13:57:55 tmp.go:44: [release] =======&{ConfPath:./init/mysql_engine.json Host:127.0.0.1 Port:3306 User:root Passwd:123qWE DbName:test MaxIdle:3 MaxActive:10 WorkerNum:0 GoSer:0xc042036600 db:<nil> engineConf:{Sqls:[]} smtsById:map[] smtsByName:map[] ctx:<nil> ctx_cb:<nil>}
+2018/03/09 13:58:19 main.go:17: [release] begin
+2018/03/09 13:58:48 main.go:17: [release] begin
+2018/03/09 13:59:15 main.go:17: [release] begin
+2018/03/09 13:59:57 main.go:17: [release] begin
+2018/03/09 13:59:57 mysql.go:163: [release] 2222222222222222
+2018/03/09 13:59:57 mysql.go:163: [release] 2222222222222222
+2018/03/09 14:00:10 main.go:17: [release] begin
+2018/03/09 14:00:10 mysql.go:180: [release] 2222222222222222
+2018/03/09 14:00:10 mysql.go:180: [release] 2222222222222222
+2018/03/09 14:00:37 main.go:17: [release] begin
+2018/03/09 14:03:52 main.go:17: [release] begin
+2018/03/09 14:03:52 go.go:36: [release] aaaaaaaaaaaaa
+2018/03/09 14:03:52 go.go:36: [release] aaaaaaaaaaaaa
+2018/03/09 14:05:12 main.go:17: [release] begin
+2018/03/09 14:05:12 mysql.go:158: [release] dbRet.dbRet.Rows=&{825741656848 5084272 825741582976 5013936 0 {{0 0} 0 0 0 0} %!d(bool=false) <nil> []},,,dbRet.Err=<nil>
+2018/03/09 14:05:13 tmp.go:60: [release] MYSQL_ReqID_TEST_SELECT1 scan id:2, err:<nil>
+2018/03/09 14:05:13 tmp.go:70: [release] ret=&{Err:<nil> Rows:0xc04209a100 Result:<nil>}
+2018/03/09 14:05:13 mysql.go:161: [release] dbRet.Result={825741656848 825741090992},,,dbRet.Err=<nil>
+2018/03/09 14:08:42 main.go:17: [release] begin
+2018/03/09 14:08:42 mysql.go:160: [release] dbRet.dbRet.Rows=&{825741787136 5083616 825741844480 5013280 0 {{0 0} 0 0 0 0} %!d(bool=false) <nil> []},,,dbRet.Err=<nil>
+2018/03/09 14:08:42 tmp.go:60: [release] MYSQL_ReqID_TEST_SELECT1 scan id:2, err:<nil>
+2018/03/09 14:08:42 tmp.go:70: [release] ret=&{Err:<nil> Rows:0xc0420cc000 Result:<nil>}
+2018/03/09 14:08:42 mysql.go:164: [release] dbRet.Result={825741787136 825741738112},,,dbRet.Err=<nil>
+2018/03/09 14:16:07 main.go:17: [release] begin
+2018/03/09 14:16:07 mysql.go:158: [release] dbRet.dbRet.Rows=&{825741901824 5084672 825741934592 5014336 0 {{0 0} 0 0 0 0} %!d(bool=false) <nil> []},,,dbRet.Err=<nil>
+2018/03/09 14:16:33 main.go:17: [release] begin
+2018/03/09 14:16:33 mysql.go:158: [release] dbRet.dbRet.Rows=&{825741566848 5084672 825741501056 5014336 0 {{0 0} 0 0 0 0} %!d(bool=false) <nil> []},,,dbRet.Err=<nil>
+2018/03/09 14:20:41 main.go:17: [release] begin
+2018/03/09 14:20:48 main.go:17: [release] begin
+2018/03/09 14:20:48 tmp.go:60: [release] MYSQL_ReqID_TEST_SELECT1 scan id:2, err:<nil>
+2018/03/09 14:20:48 tmp.go:70: [release] ret=&{Err:<nil> Rows:0xc0420a0180 Result:<nil>}
+2018/03/09 14:20:50 main.go:17: [release] begin
+2018/03/09 14:20:50 tmp.go:60: [release] MYSQL_ReqID_TEST_SELECT1 scan id:2, err:<nil>
+2018/03/09 14:20:50 tmp.go:70: [release] ret=&{Err:<nil> Rows:0xc042084180 Result:<nil>}
+2018/03/09 14:20:53 main.go:17: [release] begin
+2018/03/09 14:23:07 main.go:17: [release] begin
+2018/03/09 14:23:07 tmp.go:60: [release] MYSQL_ReqID_TEST_SELECT1 scan id:2, err:<nil>
+2018/03/09 14:23:07 tmp.go:70: [release] ret=&{Err:<nil> Rows:0xc0420c6080 Result:<nil>}
+2018/03/09 14:23:18 main.go:17: [release] begin
+2018/03/09 14:23:18 tmp.go:60: [release] MYSQL_ReqID_TEST_SELECT1 scan id:2, err:<nil>
+2018/03/09 14:23:18 tmp.go:70: [release] ret=&{Err:<nil> Rows:0xc0420f0000 Result:<nil>}
+2018/03/09 14:23:29 main.go:17: [release] begin
+2018/03/09 14:23:29 tmp.go:60: [release] MYSQL_ReqID_TEST_SELECT1 scan id:2, err:<nil>
+2018/03/09 14:23:29 tmp.go:70: [release] ret=&{Err:<nil> Rows:0xc0420e0000 Result:<nil>}
+2018/03/09 14:27:46 main.go:17: [release] begin
+2018/03/09 14:27:46 tmp.go:60: [release] MYSQL_ReqID_TEST_SELECT1 scan id:2, err:<nil>
+2018/03/09 14:27:46 tmp.go:70: [release] ret=&{Err:<nil> Rows:0xc0420e8000 Result:<nil>}
+2018/03/09 14:32:43 main.go:17: [release] begin
+2018/03/09 14:32:43 tmp.go:60: [release] MYSQL_ReqID_TEST_SELECT1 scan id:2, err:<nil>
+2018/03/09 14:32:43 tmp.go:70: [release] ret=&{Err:<nil> Rows:0xc0420e2000 Result:<nil>}
+2018/03/09 15:20:35 main.go:17: [release] begin
+2018/03/09 15:20:35 tmp.go:60: [release] MYSQL_ReqID_TEST_SELECT1 scan id:2, err:<nil>
+2018/03/09 15:20:35 tmp.go:70: [release] ret=&{Err:<nil> Rows:0xc0420c0080 Result:<nil>}
+2018/03/09 15:23:37 main.go:17: [release] begin
+2018/03/09 15:31:40 main.go:17: [release] begin
+2018/03/09 15:32:18 main.go:17: [release] begin
+2018/03/09 15:32:18 tmp.go:60: [release] MYSQL_ReqID_TEST_SELECT1 scan id:2, err:<nil>
+2018/03/09 15:32:18 tmp.go:70: [release] ret=&{Err:<nil> Rows:0xc0420ce080 Result:<nil>}
+2018/03/09 15:32:56 main.go:17: [release] begin
+2018/03/09 15:32:56 tmp.go:60: [release] MYSQL_ReqID_TEST_SELECT1 scan id:2, err:<nil>
+2018/03/09 15:32:56 tmp.go:70: [release] ret=&{Err:<nil> Rows:0xc0420ea000 Result:<nil>}
+2018/03/09 15:35:16 main.go:17: [release] begin
+2018/03/09 15:35:16 tmp.go:78: [release] -----------------
+2018/03/09 15:35:56 main.go:17: [release] begin
+2018/03/09 15:35:56 tmp.go:60: [release] MYSQL_ReqID_TEST_SELECT1 scan id:2, err:<nil>
+2018/03/09 15:35:56 tmp.go:70: [release] ret=&{Err:<nil> Rows:0xc0420e8000 Result:<nil>}
+2018/03/09 15:36:01 main.go:17: [release] begin
+2018/03/09 15:36:01 tmp.go:78: [release] -----------------
+2018/03/09 15:36:49 main.go:17: [release] begin
+2018/03/09 15:36:49 tmp.go:60: [release] MYSQL_ReqID_TEST_SELECT1 scan id:2, err:<nil>
+2018/03/09 15:36:49 tmp.go:70: [release] ret=&{Err:<nil> Rows:0xc0420e0000 Result:<nil>}
+2018/03/09 15:37:06 main.go:17: [release] begin
+2018/03/09 15:37:06 tmp.go:79: [release] -----------------
+2018/03/09 15:38:22 main.go:17: [release] begin
+2018/03/09 15:38:22 tmp.go:61: [release] MYSQL_ReqID_TEST_SELECT1 scan id:2, err:<nil>
+2018/03/09 15:38:22 tmp.go:71: [release] ret=&{Err:<nil> Rows:0xc042102000 Result:<nil>}
+2018/03/09 15:38:28 main.go:17: [release] begin
+2018/03/09 15:38:28 tmp.go:61: [release] MYSQL_ReqID_TEST_SELECT1 scan id:2, err:<nil>
+2018/03/09 15:38:28 tmp.go:71: [release] ret=&{Err:<nil> Rows:0xc0420ce080 Result:<nil>}
+2018/03/09 15:38:44 main.go:17: [release] begin
+2018/03/09 15:38:44 tmp.go:61: [release] MYSQL_ReqID_TEST_SELECT1 scan id:2, err:<nil>
+2018/03/09 15:38:44 tmp.go:71: [release] ret=&{Err:<nil> Rows:0xc0420fa000 Result:<nil>}
+2018/03/09 15:38:56 main.go:17: [release] begin
+2018/03/09 15:38:56 tmp.go:61: [release] MYSQL_ReqID_TEST_SELECT1 scan id:2, err:<nil>
+2018/03/09 15:38:56 tmp.go:71: [release] ret=&{Err:<nil> Rows:0xc042084180 Result:<nil>}
+2018/03/09 15:39:14 main.go:17: [release] begin
+2018/03/09 15:39:14 tmp.go:61: [release] MYSQL_ReqID_TEST_SELECT1 scan id:2, err:<nil>
+2018/03/09 15:39:14 tmp.go:71: [release] ret=&{Err:<nil> Rows:0xc0420e4000 Result:<nil>}
+2018/03/09 15:41:49 main.go:17: [release] begin
+2018/03/09 15:41:49 tmp.go:61: [release] MYSQL_ReqID_TEST_SELECT1 scan id:2, err:<nil>
+2018/03/09 15:41:49 tmp.go:78: [release] -----------------
+2018/03/09 15:43:53 main.go:17: [release] begin
+2018/03/09 15:43:53 tmp.go:61: [release] MYSQL_ReqID_TEST_SELECT1 scan id:2, err:<nil>
+2018/03/09 15:43:53 tmp.go:78: [release] -----------------
+2018/03/09 15:43:53 tmp.go:79: [release] ***********%!(EXTRA sql.driverResult={0xc0420bc000 0xc0420fc000})
+2018/03/09 15:44:21 main.go:17: [release] begin
+2018/03/09 15:44:21 tmp.go:61: [release] MYSQL_ReqID_TEST_SELECT1 scan id:2, err:<nil>
+2018/03/09 15:44:21 tmp.go:78: [release] -----------------
+2018/03/09 15:44:21 tmp.go:79: [release] ***********%!(EXTRA <nil>)
+2018/03/09 15:45:40 main.go:17: [release] begin
+2018/03/09 15:45:40 tmp.go:61: [release] MYSQL_ReqID_TEST_SELECT1 scan id:2, err:<nil>
+2018/03/09 15:45:40 tmp.go:79: [release] ***********%!(EXTRA int64=1)
+2018/03/09 15:54:33 main.go:17: [release] begin
+2018/03/09 15:54:33 tmp.go:67: [release] MYSQL_ReqID_TEST_SELECT1 scan id:&{Id:0 Name: birthday:{wall:0 ext:0 loc:<nil>}}, err:sql: expected 3 destination arguments in Scan, not 1
+2018/03/09 15:54:33 tmp.go:67: [release] MYSQL_ReqID_TEST_SELECT1 scan id:&{Id:0 Name: birthday:{wall:0 ext:0 loc:<nil>}}, err:sql: expected 3 destination arguments in Scan, not 1
+2018/03/09 15:54:33 tmp.go:67: [release] MYSQL_ReqID_TEST_SELECT1 scan id:&{Id:0 Name: birthday:{wall:0 ext:0 loc:<nil>}}, err:sql: expected 3 destination arguments in Scan, not 1
+2018/03/09 15:54:33 tmp.go:67: [release] MYSQL_ReqID_TEST_SELECT1 scan id:&{Id:0 Name: birthday:{wall:0 ext:0 loc:<nil>}}, err:sql: expected 3 destination arguments in Scan, not 1
+2018/03/09 15:54:33 tmp.go:67: [release] MYSQL_ReqID_TEST_SELECT1 scan id:&{Id:0 Name: birthday:{wall:0 ext:0 loc:<nil>}}, err:sql: expected 3 destination arguments in Scan, not 1
+2018/03/09 15:54:33 tmp.go:67: [release] MYSQL_ReqID_TEST_SELECT1 scan id:&{Id:0 Name: birthday:{wall:0 ext:0 loc:<nil>}}, err:sql: expected 3 destination arguments in Scan, not 1
+2018/03/09 15:54:33 tmp.go:67: [release] MYSQL_ReqID_TEST_SELECT1 scan id:&{Id:0 Name: birthday:{wall:0 ext:0 loc:<nil>}}, err:sql: expected 3 destination arguments in Scan, not 1
+2018/03/09 15:54:33 tmp.go:67: [release] MYSQL_ReqID_TEST_SELECT1 scan id:&{Id:0 Name: birthday:{wall:0 ext:0 loc:<nil>}}, err:sql: expected 3 destination arguments in Scan, not 1
+2018/03/09 15:54:33 tmp.go:67: [release] MYSQL_ReqID_TEST_SELECT1 scan id:&{Id:0 Name: birthday:{wall:0 ext:0 loc:<nil>}}, err:sql: expected 3 destination arguments in Scan, not 1
+2018/03/09 15:54:33 tmp.go:67: [release] MYSQL_ReqID_TEST_SELECT1 scan id:&{Id:0 Name: birthday:{wall:0 ext:0 loc:<nil>}}, err:sql: expected 3 destination arguments in Scan, not 1
+2018/03/09 15:54:33 tmp.go:67: [release] MYSQL_ReqID_TEST_SELECT1 scan id:&{Id:0 Name: birthday:{wall:0 ext:0 loc:<nil>}}, err:sql: expected 3 destination arguments in Scan, not 1
+2018/03/09 15:54:33 tmp.go:67: [release] MYSQL_ReqID_TEST_SELECT1 scan id:&{Id:0 Name: birthday:{wall:0 ext:0 loc:<nil>}}, err:sql: expected 3 destination arguments in Scan, not 1
+2018/03/09 15:54:33 tmp.go:67: [release] MYSQL_ReqID_TEST_SELECT1 scan id:&{Id:0 Name: birthday:{wall:0 ext:0 loc:<nil>}}, err:sql: expected 3 destination arguments in Scan, not 1
+2018/03/09 15:54:33 tmp.go:67: [release] MYSQL_ReqID_TEST_SELECT1 scan id:&{Id:0 Name: birthday:{wall:0 ext:0 loc:<nil>}}, err:sql: expected 3 destination arguments in Scan, not 1
+2018/03/09 15:54:33 tmp.go:67: [release] MYSQL_ReqID_TEST_SELECT1 scan id:&{Id:0 Name: birthday:{wall:0 ext:0 loc:<nil>}}, err:sql: expected 3 destination arguments in Scan, not 1
+2018/03/09 15:54:33 tmp.go:67: [release] MYSQL_ReqID_TEST_SELECT1 scan id:&{Id:0 Name: birthday:{wall:0 ext:0 loc:<nil>}}, err:sql: expected 3 destination arguments in Scan, not 1
+2018/03/09 15:54:33 tmp.go:74: [release] MYSQL_ReqID_TEST_SELECT1 no rows ???
+2018/03/09 15:54:33 tmp.go:85: [release] ***********%!(EXTRA int64=1)
+2018/03/09 15:55:28 main.go:17: [release] begin
+2018/03/09 15:55:28 tmp.go:67: [release] MYSQL_ReqID_TEST_SELECT1 scan id:&{id:0 name: birthday:{wall:0 ext:0 loc:<nil>}}, err:sql: expected 3 destination arguments in Scan, not 1
+2018/03/09 15:55:28 tmp.go:67: [release] MYSQL_ReqID_TEST_SELECT1 scan id:&{id:0 name: birthday:{wall:0 ext:0 loc:<nil>}}, err:sql: expected 3 destination arguments in Scan, not 1
+2018/03/09 15:55:28 tmp.go:67: [release] MYSQL_ReqID_TEST_SELECT1 scan id:&{id:0 name: birthday:{wall:0 ext:0 loc:<nil>}}, err:sql: expected 3 destination arguments in Scan, not 1
+2018/03/09 15:55:28 tmp.go:67: [release] MYSQL_ReqID_TEST_SELECT1 scan id:&{id:0 name: birthday:{wall:0 ext:0 loc:<nil>}}, err:sql: expected 3 destination arguments in Scan, not 1
+2018/03/09 15:55:28 tmp.go:67: [release] MYSQL_ReqID_TEST_SELECT1 scan id:&{id:0 name: birthday:{wall:0 ext:0 loc:<nil>}}, err:sql: expected 3 destination arguments in Scan, not 1
+2018/03/09 15:55:28 tmp.go:67: [release] MYSQL_ReqID_TEST_SELECT1 scan id:&{id:0 name: birthday:{wall:0 ext:0 loc:<nil>}}, err:sql: expected 3 destination arguments in Scan, not 1
+2018/03/09 15:55:28 tmp.go:67: [release] MYSQL_ReqID_TEST_SELECT1 scan id:&{id:0 name: birthday:{wall:0 ext:0 loc:<nil>}}, err:sql: expected 3 destination arguments in Scan, not 1
+2018/03/09 15:55:28 tmp.go:67: [release] MYSQL_ReqID_TEST_SELECT1 scan id:&{id:0 name: birthday:{wall:0 ext:0 loc:<nil>}}, err:sql: expected 3 destination arguments in Scan, not 1
+2018/03/09 15:55:28 tmp.go:67: [release] MYSQL_ReqID_TEST_SELECT1 scan id:&{id:0 name: birthday:{wall:0 ext:0 loc:<nil>}}, err:sql: expected 3 destination arguments in Scan, not 1
+2018/03/09 15:55:28 tmp.go:67: [release] MYSQL_ReqID_TEST_SELECT1 scan id:&{id:0 name: birthday:{wall:0 ext:0 loc:<nil>}}, err:sql: expected 3 destination arguments in Scan, not 1
+2018/03/09 15:55:28 tmp.go:67: [release] MYSQL_ReqID_TEST_SELECT1 scan id:&{id:0 name: birthday:{wall:0 ext:0 loc:<nil>}}, err:sql: expected 3 destination arguments in Scan, not 1
+2018/03/09 15:55:28 tmp.go:67: [release] MYSQL_ReqID_TEST_SELECT1 scan id:&{id:0 name: birthday:{wall:0 ext:0 loc:<nil>}}, err:sql: expected 3 destination arguments in Scan, not 1
+2018/03/09 15:55:28 tmp.go:67: [release] MYSQL_ReqID_TEST_SELECT1 scan id:&{id:0 name: birthday:{wall:0 ext:0 loc:<nil>}}, err:sql: expected 3 destination arguments in Scan, not 1
+2018/03/09 15:55:28 tmp.go:67: [release] MYSQL_ReqID_TEST_SELECT1 scan id:&{id:0 name: birthday:{wall:0 ext:0 loc:<nil>}}, err:sql: expected 3 destination arguments in Scan, not 1
+2018/03/09 15:55:28 tmp.go:67: [release] MYSQL_ReqID_TEST_SELECT1 scan id:&{id:0 name: birthday:{wall:0 ext:0 loc:<nil>}}, err:sql: expected 3 destination arguments in Scan, not 1
+2018/03/09 15:55:28 tmp.go:67: [release] MYSQL_ReqID_TEST_SELECT1 scan id:&{id:0 name: birthday:{wall:0 ext:0 loc:<nil>}}, err:sql: expected 3 destination arguments in Scan, not 1
+2018/03/09 15:55:28 tmp.go:67: [release] MYSQL_ReqID_TEST_SELECT1 scan id:&{id:0 name: birthday:{wall:0 ext:0 loc:<nil>}}, err:sql: expected 3 destination arguments in Scan, not 1
+2018/03/09 15:55:28 tmp.go:74: [release] MYSQL_ReqID_TEST_SELECT1 no rows ???
+2018/03/09 15:55:28 tmp.go:85: [release] ***********%!(EXTRA int64=1)
+2018/03/09 16:25:04 main.go:17: [release] begin
+2018/03/09 16:25:04 tmp.go:70: [release] MYSQL_ReqID_TEST_SELECT1 scan id:+19 name:1 birthday:=0001-01-01 00:00:00 +0000 UTC, err:sql: Scan error on column index 2: unsupported Scan, storing driver.Value type <nil> into type *time.Time
+2018/03/09 16:25:04 tmp.go:70: [release] MYSQL_ReqID_TEST_SELECT1 scan id:+20 name:1 birthday:=0001-01-01 00:00:00 +0000 UTC, err:sql: Scan error on column index 2: unsupported Scan, storing driver.Value type <nil> into type *time.Time
+2018/03/09 16:25:04 tmp.go:70: [release] MYSQL_ReqID_TEST_SELECT1 scan id:+21 name:1 birthday:=0001-01-01 00:00:00 +0000 UTC, err:sql: Scan error on column index 2: unsupported Scan, storing driver.Value type <nil> into type *time.Time
+2018/03/09 16:25:04 tmp.go:70: [release] MYSQL_ReqID_TEST_SELECT1 scan id:+22 name:1 birthday:=0001-01-01 00:00:00 +0000 UTC, err:sql: Scan error on column index 2: unsupported Scan, storing driver.Value type <nil> into type *time.Time
+2018/03/09 16:25:04 tmp.go:70: [release] MYSQL_ReqID_TEST_SELECT1 scan id:+23 name:1 birthday:=0001-01-01 00:00:00 +0000 UTC, err:sql: Scan error on column index 2: unsupported Scan, storing driver.Value type <nil> into type *time.Time
+2018/03/09 16:25:04 tmp.go:70: [release] MYSQL_ReqID_TEST_SELECT1 scan id:+24 name:1 birthday:=0001-01-01 00:00:00 +0000 UTC, err:sql: Scan error on column index 2: unsupported Scan, storing driver.Value type <nil> into type *time.Time
+2018/03/09 16:25:04 tmp.go:70: [release] MYSQL_ReqID_TEST_SELECT1 scan id:+25 name:1 birthday:=0001-01-01 00:00:00 +0000 UTC, err:sql: Scan error on column index 2: unsupported Scan, storing driver.Value type []uint8 into type *time.Time
+2018/03/09 16:25:04 tmp.go:70: [release] MYSQL_ReqID_TEST_SELECT1 scan id:+26 name:1 birthday:=0001-01-01 00:00:00 +0000 UTC, err:sql: Scan error on column index 2: unsupported Scan, storing driver.Value type []uint8 into type *time.Time
+2018/03/09 16:25:04 tmp.go:70: [release] MYSQL_ReqID_TEST_SELECT1 scan id:+27 name:1 birthday:=0001-01-01 00:00:00 +0000 UTC, err:sql: Scan error on column index 2: unsupported Scan, storing driver.Value type []uint8 into type *time.Time
+2018/03/09 16:25:04 tmp.go:70: [release] MYSQL_ReqID_TEST_SELECT1 scan id:+28 name:1 birthday:=0001-01-01 00:00:00 +0000 UTC, err:sql: Scan error on column index 2: unsupported Scan, storing driver.Value type []uint8 into type *time.Time
+2018/03/09 16:25:04 tmp.go:70: [release] MYSQL_ReqID_TEST_SELECT1 scan id:+29 name:1 birthday:=0001-01-01 00:00:00 +0000 UTC, err:sql: Scan error on column index 2: unsupported Scan, storing driver.Value type []uint8 into type *time.Time
+2018/03/09 16:25:04 tmp.go:70: [release] MYSQL_ReqID_TEST_SELECT1 scan id:+30 name:1 birthday:=0001-01-01 00:00:00 +0000 UTC, err:sql: Scan error on column index 2: unsupported Scan, storing driver.Value type []uint8 into type *time.Time
+2018/03/09 16:25:04 tmp.go:70: [release] MYSQL_ReqID_TEST_SELECT1 scan id:+31 name:1 birthday:=0001-01-01 00:00:00 +0000 UTC, err:sql: Scan error on column index 2: unsupported Scan, storing driver.Value type []uint8 into type *time.Time
+2018/03/09 16:25:04 tmp.go:70: [release] MYSQL_ReqID_TEST_SELECT1 scan id:+32 name:1 birthday:=0001-01-01 00:00:00 +0000 UTC, err:sql: Scan error on column index 2: unsupported Scan, storing driver.Value type []uint8 into type *time.Time
+2018/03/09 16:25:04 tmp.go:70: [release] MYSQL_ReqID_TEST_SELECT1 scan id:+33 name:1 birthday:=0001-01-01 00:00:00 +0000 UTC, err:sql: Scan error on column index 2: unsupported Scan, storing driver.Value type []uint8 into type *time.Time
+2018/03/09 16:25:04 tmp.go:70: [release] MYSQL_ReqID_TEST_SELECT1 scan id:+34 name:1 birthday:=0001-01-01 00:00:00 +0000 UTC, err:sql: Scan error on column index 2: unsupported Scan, storing driver.Value type []uint8 into type *time.Time
+2018/03/09 16:25:04 tmp.go:70: [release] MYSQL_ReqID_TEST_SELECT1 scan id:+35 name:1 birthday:=0001-01-01 00:00:00 +0000 UTC, err:sql: Scan error on column index 2: unsupported Scan, storing driver.Value type []uint8 into type *time.Time
+2018/03/09 16:25:04 tmp.go:70: [release] MYSQL_ReqID_TEST_SELECT1 scan id:+36 name:1 birthday:=0001-01-01 00:00:00 +0000 UTC, err:sql: Scan error on column index 2: unsupported Scan, storing driver.Value type []uint8 into type *time.Time
+2018/03/09 16:25:04 tmp.go:77: [release] MYSQL_ReqID_TEST_SELECT1 no rows ???
+2018/03/09 16:25:04 tmp.go:88: [release] ***********%!(EXTRA int64=1)
+2018/03/09 16:37:44 main.go:17: [release] begin
+2018/03/09 16:37:44 tmp.go:71: [release] MYSQL_ReqID_TEST_SELECT1 scan id:+19 name:{1 %!s(bool=true)} birthday:=0001-01-01 00:00:00 +0000 UTC, err:sql: Scan error on column index 2: unsupported Scan, storing driver.Value type <nil> into type *time.Time
+2018/03/09 16:37:44 tmp.go:71: [release] MYSQL_ReqID_TEST_SELECT1 scan id:+20 name:{1 %!s(bool=true)} birthday:=0001-01-01 00:00:00 +0000 UTC, err:sql: Scan error on column index 2: unsupported Scan, storing driver.Value type <nil> into type *time.Time
+2018/03/09 16:37:44 tmp.go:71: [release] MYSQL_ReqID_TEST_SELECT1 scan id:+21 name:{1 %!s(bool=true)} birthday:=0001-01-01 00:00:00 +0000 UTC, err:sql: Scan error on column index 2: unsupported Scan, storing driver.Value type <nil> into type *time.Time
+2018/03/09 16:37:44 tmp.go:71: [release] MYSQL_ReqID_TEST_SELECT1 scan id:+22 name:{1 %!s(bool=true)} birthday:=0001-01-01 00:00:00 +0000 UTC, err:sql: Scan error on column index 2: unsupported Scan, storing driver.Value type <nil> into type *time.Time
+2018/03/09 16:37:44 tmp.go:71: [release] MYSQL_ReqID_TEST_SELECT1 scan id:+23 name:{1 %!s(bool=true)} birthday:=0001-01-01 00:00:00 +0000 UTC, err:sql: Scan error on column index 2: unsupported Scan, storing driver.Value type <nil> into type *time.Time
+2018/03/09 16:37:44 tmp.go:71: [release] MYSQL_ReqID_TEST_SELECT1 scan id:+24 name:{1 %!s(bool=true)} birthday:=0001-01-01 00:00:00 +0000 UTC, err:sql: Scan error on column index 2: unsupported Scan, storing driver.Value type <nil> into type *time.Time
+2018/03/09 16:37:44 tmp.go:71: [release] MYSQL_ReqID_TEST_SELECT1 scan id:+25 name:{1 %!s(bool=true)} birthday:=0001-01-01 00:00:00 +0000 UTC, err:sql: Scan error on column index 2: unsupported Scan, storing driver.Value type []uint8 into type *time.Time
+2018/03/09 16:37:44 tmp.go:71: [release] MYSQL_ReqID_TEST_SELECT1 scan id:+26 name:{1 %!s(bool=true)} birthday:=0001-01-01 00:00:00 +0000 UTC, err:sql: Scan error on column index 2: unsupported Scan, storing driver.Value type []uint8 into type *time.Time
+2018/03/09 16:37:44 tmp.go:71: [release] MYSQL_ReqID_TEST_SELECT1 scan id:+27 name:{1 %!s(bool=true)} birthday:=0001-01-01 00:00:00 +0000 UTC, err:sql: Scan error on column index 2: unsupported Scan, storing driver.Value type []uint8 into type *time.Time
+2018/03/09 16:37:44 tmp.go:71: [release] MYSQL_ReqID_TEST_SELECT1 scan id:+28 name:{1 %!s(bool=true)} birthday:=0001-01-01 00:00:00 +0000 UTC, err:sql: Scan error on column index 2: unsupported Scan, storing driver.Value type []uint8 into type *time.Time
+2018/03/09 16:37:44 tmp.go:71: [release] MYSQL_ReqID_TEST_SELECT1 scan id:+29 name:{1 %!s(bool=true)} birthday:=0001-01-01 00:00:00 +0000 UTC, err:sql: Scan error on column index 2: unsupported Scan, storing driver.Value type []uint8 into type *time.Time
+2018/03/09 16:37:44 tmp.go:71: [release] MYSQL_ReqID_TEST_SELECT1 scan id:+30 name:{1 %!s(bool=true)} birthday:=0001-01-01 00:00:00 +0000 UTC, err:sql: Scan error on column index 2: unsupported Scan, storing driver.Value type []uint8 into type *time.Time
+2018/03/09 16:37:44 tmp.go:71: [release] MYSQL_ReqID_TEST_SELECT1 scan id:+31 name:{1 %!s(bool=true)} birthday:=0001-01-01 00:00:00 +0000 UTC, err:sql: Scan error on column index 2: unsupported Scan, storing driver.Value type []uint8 into type *time.Time
+2018/03/09 16:37:44 tmp.go:71: [release] MYSQL_ReqID_TEST_SELECT1 scan id:+32 name:{1 %!s(bool=true)} birthday:=0001-01-01 00:00:00 +0000 UTC, err:sql: Scan error on column index 2: unsupported Scan, storing driver.Value type []uint8 into type *time.Time
+2018/03/09 16:37:44 tmp.go:71: [release] MYSQL_ReqID_TEST_SELECT1 scan id:+33 name:{1 %!s(bool=true)} birthday:=0001-01-01 00:00:00 +0000 UTC, err:sql: Scan error on column index 2: unsupported Scan, storing driver.Value type []uint8 into type *time.Time
+2018/03/09 16:37:44 tmp.go:71: [release] MYSQL_ReqID_TEST_SELECT1 scan id:+34 name:{1 %!s(bool=true)} birthday:=0001-01-01 00:00:00 +0000 UTC, err:sql: Scan error on column index 2: unsupported Scan, storing driver.Value type []uint8 into type *time.Time
+2018/03/09 16:37:44 tmp.go:71: [release] MYSQL_ReqID_TEST_SELECT1 scan id:+35 name:{1 %!s(bool=true)} birthday:=0001-01-01 00:00:00 +0000 UTC, err:sql: Scan error on column index 2: unsupported Scan, storing driver.Value type []uint8 into type *time.Time
+2018/03/09 16:37:44 tmp.go:71: [release] MYSQL_ReqID_TEST_SELECT1 scan id:+36 name:{1 %!s(bool=true)} birthday:=0001-01-01 00:00:00 +0000 UTC, err:sql: Scan error on column index 2: unsupported Scan, storing driver.Value type []uint8 into type *time.Time
+2018/03/09 16:37:44 tmp.go:78: [release] MYSQL_ReqID_TEST_SELECT1 no rows ???
+2018/03/09 16:37:44 tmp.go:89: [release] ***********%!(EXTRA int64=1)
+2018/03/09 16:38:29 main.go:17: [release] begin
+2018/03/09 16:38:42 main.go:17: [release] begin
+2018/03/09 16:38:42 tmp.go:78: [release] MYSQL_ReqID_TEST_SELECT1 no rows ???
+2018/03/09 16:38:42 tmp.go:89: [release] ***********%!(EXTRA int64=1)
+2018/03/09 16:39:00 main.go:17: [release] begin
+2018/03/09 16:39:00 tmp.go:71: [release] MYSQL_ReqID_TEST_SELECT1 scan id:+30 name:{1 %!s(bool=true)} birthday:=0001-01-01 00:00:00 +0000 UTC, err:sql: Scan error on column index 2: unsupported Scan, storing driver.Value type []uint8 into type *time.Time
+2018/03/09 16:39:00 tmp.go:78: [release] MYSQL_ReqID_TEST_SELECT1 no rows ???
+2018/03/09 16:39:00 tmp.go:89: [release] ***********%!(EXTRA int64=1)
+2018/03/09 16:39:54 main.go:17: [release] begin
+2018/03/09 16:39:54 tmp.go:71: [release] MYSQL_ReqID_TEST_SELECT1 scan id:+30 name:{1 %!s(bool=true)} birthday:=0001-01-01 00:00:00 +0000 UTC, err:sql: Scan error on column index 2: unsupported Scan, storing driver.Value type []uint8 into type *time.Time
+2018/03/09 16:39:54 tmp.go:78: [release] MYSQL_ReqID_TEST_SELECT1 no rows ???
+2018/03/09 16:39:54 tmp.go:89: [release] ***********%!(EXTRA int64=1)
+2018/03/09 16:40:01 main.go:17: [release] begin
+2018/03/09 16:40:01 tmp.go:70: [release] MYSQL_ReqID_TEST_SELECT1 scan id:+30 name:1 birthday:=0001-01-01 00:00:00 +0000 UTC, err:sql: Scan error on column index 2: unsupported Scan, storing driver.Value type []uint8 into type *time.Time
+2018/03/09 16:40:01 tmp.go:77: [release] MYSQL_ReqID_TEST_SELECT1 no rows ???
+2018/03/09 16:40:01 tmp.go:88: [release] ***********%!(EXTRA int64=1)

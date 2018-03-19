@@ -1,0 +1,16 @@
+{
+  "Sqls":[
+    {
+      "Id":1,
+      "Name":"test.select1",
+      "Sql":"select * from user2 where id=30",
+      "Select":true
+    },
+    {
+      "Id":2,
+      "Name":"test.insert",
+      "Sql":"insert into user2(name,birthday) values(?,?) ",
+      "Select":false
+    }
+  ]
+}
