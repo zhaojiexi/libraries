@@ -1,13 +1,13 @@
 package main
 
 import (
-	"libreries/tmp/file"
+	"libraries/tmp/file"
 	"strings"
 	"fmt"
 	"time"
 	"os"
 	"os/signal"
-	"libreries/tmp/db"
+	"libraries/tmp/db"
 	"github.com/garyburd/redigo/redis"
 )
 
