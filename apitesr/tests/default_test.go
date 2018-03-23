@@ -6,11 +6,11 @@ import (
 	"testing"
 	"runtime"
 	"path/filepath"
-	_ "cx/tmp/wb/apitesr/routers"
+	//_ "cx/tmp/wb/apitesr/routers"
 
 	"github.com/astaxie/beego"
-	. "github.com/smartystreets/goconvey/convey"
-)
+	."github.com/smartystreets/goconver/convey"
+	)
 
 func init() {
 	_, file, _, _ := runtime.Caller(1)
