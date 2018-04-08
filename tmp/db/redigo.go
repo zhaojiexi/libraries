@@ -13,14 +13,12 @@ type DBC struct {
 
 var (
 	db             DBC
-	Redis_Password = "Zxcasdqwe123!@#"
-	Redis_Host     = "127.0.0.1"
-	Redis_Port     = 6379
+	Redis_Password = "dkkaI#27KlmQ-3k2OPj"
+	Redis_Host     = "192.168.1.232"
+	Redis_Port     = 6388
 )
 
-
-
-func (db *DBC)GetDB() {
+func (db *DBC) GetDB() {
 
 	r := &redis.Pool{
 		MaxIdle:     10,

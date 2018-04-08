@@ -1,0 +1,84 @@
+2018/03/26 19:29:11 main.go:24: [release] ==========<nil>
+2018/03/26 19:29:11 main.go:27: [error]  http start err:listen tcp :8080: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+2018/03/26 19:29:16 main.go:24: [release] ==========<nil>
+2018/03/27 09:27:32 main.go:24: [release] ==========<nil>
+2018/03/27 09:31:31 main.go:24: [release] ==========<nil>
+2018/03/27 09:36:55 main.go:24: [release] ==========<nil>
+2018/03/27 09:37:41 main.go:24: [release] ==========<nil>
+2018/03/27 09:38:28 main.go:24: [release] ==========<nil>
+2018/03/27 09:38:29 router.go:39: [release] form value name : 
+2018/03/27 09:38:29 router.go:39: [release] form value name : 
+2018/03/27 09:38:33 router.go:39: [release] form value name : 
+2018/03/27 09:38:33 router.go:39: [release] form value name : 
+2018/03/27 09:38:35 router.go:39: [release] form value name :admin 
+2018/03/27 09:43:08 main.go:24: [release] ==========<nil>
+2018/03/27 09:43:12 router.go:40: [release] form value name :admin 
+2018/03/27 09:43:23 router.go:40: [release] form value name : 
+2018/03/27 09:45:20 main.go:24: [release] ==========<nil>
+2018/03/27 09:45:30 router.go:40: [release] form value name :admin 
+2018/03/27 09:46:08 router.go:40: [release] form value name : 
+2018/03/27 09:46:19 main.go:24: [release] ==========<nil>
+2018/03/27 09:46:25 router.go:40: [release] form value name :admin 
+2018/03/27 09:48:01 main.go:24: [release] ==========<nil>
+2018/03/27 09:48:05 router.go:40: [release] form value name :admin 
+2018/03/27 09:48:59 main.go:24: [release] ==========<nil>
+2018/03/27 09:49:04 router.go:40: [release] form value name :admin 
+2018/03/27 10:11:32 main.go:24: [release] ==========<nil>
+2018/03/27 10:11:32 router.go:40: [release] form value name :admin 
+2018/03/27 10:12:07 main.go:24: [release] ==========<nil>
+2018/03/27 10:12:08 router.go:41: [release] form value name :admin 
+2018/03/27 10:14:12 main.go:24: [release] ==========<nil>
+2018/03/27 10:14:16 router.go:41: [release] form value name :admin 
+2018/03/27 10:15:11 main.go:24: [release] ==========<nil>
+2018/03/27 10:15:13 router.go:41: [release] form value name :admin 
+2018/03/27 10:15:53 main.go:24: [release] ==========<nil>
+2018/03/27 10:15:56 router.go:41: [release] form value name :admin 
+2018/03/27 10:15:56 mysql.go:156: [release] Rows:<nil> err:sql: statement expects 0 inputs; got 1
+2018/03/27 10:21:07 main.go:24: [release] ==========<nil>
+2018/03/27 10:21:10 router.go:41: [release] form value name :admin 
+2018/03/27 10:21:10 mysql.go:156: [release] Rows:<nil> err:sql: statement expects 0 inputs; got 1
+2018/03/27 10:21:10 router.go:46: [release]  err sql: statement expects 0 inputs; got 1
+2018/03/27 10:21:10 router.go:48: [release] key%!(EXTRA <nil>, string=ret :, *sql.Rows=<nil>)
+2018/03/27 10:24:14 main.go:24: [release] ==========<nil>
+2018/03/27 10:24:17 router.go:41: [release] form value name :admin 
+2018/03/27 10:24:17 mysql.go:156: [release] Rows:<nil> err:sql: statement expects 0 inputs; got 1
+2018/03/27 10:24:17 router.go:46: [release]  err sql: statement expects 0 inputs; got 1
+2018/03/27 10:24:17 router.go:48: [release] key%!(EXTRA <nil>, string=ret :, *sql.Rows=<nil>)
+2018/03/27 10:24:17 router.go:50: [release]  Rows nil %!s(MISSING)
+2018/03/27 10:26:03 main.go:24: [release] ==========<nil>
+2018/03/27 10:26:07 router.go:41: [release] form value name :admin 
+2018/03/27 10:26:07 mysql.go:156: [release] Rows:<nil> err:sql: statement expects 0 inputs; got 1
+2018/03/27 10:26:07 mysql.go:157: [release]  sql: select 2
+2018/03/27 10:26:07 router.go:46: [release]  err sql: statement expects 0 inputs; got 1
+2018/03/27 10:26:07 router.go:48: [release] key%!(EXTRA <nil>, string=ret :, *sql.Rows=<nil>)
+2018/03/27 10:26:07 router.go:50: [release]  Rows nil %!s(MISSING)
+2018/03/27 10:27:11 main.go:24: [release] ==========<nil>
+2018/03/27 10:27:21 router.go:41: [release] form value name :admin 
+2018/03/27 10:27:21 mysql.go:156: [release] Rows:&{dc:0xc04215c000 releaseConn:0x68d330 rowsi:0xc04216c000 cancel:0x54bbc0 closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]} err:<nil>
+2018/03/27 10:27:21 mysql.go:157: [release]  sql: select * from admin where adminName =? 
+2018/03/27 10:27:21 router.go:48: [release] key%!(EXTRA <nil>, string=ret :, *sql.Rows=&{0xc04215c000 0x68d330 0xc04216c000 0x54bbc0 <nil> {{0 0} 0 0 0 0} false <nil> []})
+2018/03/27 10:28:41 main.go:24: [release] ==========<nil>
+2018/03/27 10:28:44 router.go:41: [release] form value name :admin 
+2018/03/27 10:28:44 mysql.go:156: [release] Rows:&{dc:0xc042166000 releaseConn:0x68d330 rowsi:0xc042108050 cancel:0x54bbc0 closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]} err:<nil>
+2018/03/27 10:28:44 mysql.go:157: [release]  sql: select * from admin where adminName =? 
+2018/03/27 10:28:44 router.go:48: [release] key%!(EXTRA <nil>, string=ret :, *sql.Rows=&{0xc042166000 0x68d330 0xc042108050 0x54bbc0 <nil> {{0 0} 0 0 0 0} false <nil> []})
+2018/03/27 10:29:55 main.go:24: [release] ==========<nil>
+2018/03/27 10:29:58 router.go:40: [release] form value name :admin 
+2018/03/27 10:29:58 mysql.go:156: [release] Rows:&{dc:0xc04211c2a0 releaseConn:0x68d330 rowsi:0xc0421300f0 cancel:0x54bbc0 closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]} err:<nil>
+2018/03/27 10:29:58 mysql.go:157: [release]  sql: select * from admin where adminName =? 
+2018/03/27 10:29:58 router.go:47: [release] key%!(EXTRA <nil>, string=ret :, *sql.Rows=&{0xc04211c2a0 0x68d330 0xc0421300f0 0x54bbc0 <nil> {{0 0} 0 0 0 0} false <nil> []})
+2018/03/27 10:29:58 router.go:60: [release] id=1,s=admin,name=manager,pwd=e10adc3949ba59abbe56e057f20f883e
+2018/03/27 10:36:07 main.go:24: [release] ==========<nil>
+2018/03/27 10:36:09 router.go:40: [release] form value name :admin 
+2018/03/27 10:36:09 db.go:39: [release] key%!(EXTRA <nil>, string=ret :, *sql.Rows=&{0xc042178000 0x68d330 0xc0421500f0 0x54bbc0 <nil> {{0 0} 0 0 0 0} false <nil> []})
+2018/03/27 10:36:09 db.go:52: [release] id=1,s=admin,name=manager,pwd=e10adc3949ba59abbe56e057f20f883e
+2018/03/27 10:36:09 router.go:40: [release] form value name :admin 
+2018/03/27 10:36:09 db.go:39: [release] key%!(EXTRA <nil>, string=ret :, *sql.Rows=&{0xc0421ba000 0x68d330 0xc0421c2000 0x54bbc0 <nil> {{0 0} 0 0 0 0} false <nil> []})
+2018/03/27 10:36:09 db.go:52: [release] id=1,s=admin,name=manager,pwd=e10adc3949ba59abbe56e057f20f883e
+2018/03/27 10:50:21 main.go:24: [release] ==========<nil>
+2018/03/27 10:50:26 router.go:40: [release] form value name :admin 
+2018/03/27 10:50:26 db.go:41: [release] key%!(EXTRA <nil>, string=ret :, *sql.Rows=&{0xc0420fc0e0 0x68d330 0xc042088370 0x54bbc0 <nil> {{0 0} 0 0 0 0} false <nil> []})
+2018/03/27 10:50:26 db.go:54: [release] id=1,s=admin,name=manager,pwd=e10adc3949ba59abbe56e057f20f883e
+2018/03/27 10:58:55 router.go:40: [release] form value name :admin 
+2018/03/27 10:58:55 db.go:41: [release] key%!(EXTRA <nil>, string=ret :, *sql.Rows=&{0xc042184000 0x68d330 0xc042112050 0x54bbc0 <nil> {{0 0} 0 0 0 0} false <nil> []})
+2018/03/27 10:58:55 db.go:54: [release] id=1,s=admin,name=manager,pwd=e10adc3949ba59abbe56e057f20f883e

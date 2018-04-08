@@ -3,9 +3,9 @@ package test
 import (
 	"testing"
 	"fmt"
-	h "cx/tokenAndnegroni/mock/hello"
+	h "libraries/mock/hello"
 	"github.com/golang/mock/gomock"
-	mock "cx/tokenAndnegroni/mock/hello/mock"
+	mock "libraries/mock/hello/mock"
 )
 
 func TestTalk(t *testing.T) {
